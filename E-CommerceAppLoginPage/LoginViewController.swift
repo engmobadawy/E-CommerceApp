@@ -1,7 +1,7 @@
 import UIKit
 import SwiftKeychainWrapper
 
-class ViewController: UIViewController, UITextFieldDelegate {
+class LoginViewController: UIViewController, UITextFieldDelegate {
 
     @IBOutlet weak var userName: UITextField!
     @IBOutlet weak var password: UITextField!
